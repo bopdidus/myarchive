@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8a22f11a-6b1d-484a-bb97-4d3754f50d82": {
+      "ProjectGuid": "8a22f11a-6b1d-484a-bb97-4d3754f50d82",
+      "DisplayName": "MyArchive",
+      "ColorIndex": 0
+    },
+    "e0864406-10e7-4647-b572-12ebd83bebbf": {
+      "ProjectGuid": "e0864406-10e7-4647-b572-12ebd83bebbf",
+      "DisplayName": "Model",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "a22e282d-10e7-4331-879a-92298f92221a": {
+      "ProjectGuid": "a22e282d-10e7-4331-879a-92298f92221a",
+      "DisplayName": "Model",
+      "ColorIndex": 2
+    },
+    "ebc63dd7-b80a-43bd-a94f-9923e3081230": {
+      "ProjectGuid": "ebc63dd7-b80a-43bd-a94f-9923e3081230",
+      "DisplayName": "MyArchive.BO",
+      "ColorIndex": 3
+    },
+    "8e5acf67-28fe-48f6-a458-91c0eb1ede35": {
+      "ProjectGuid": "8e5acf67-28fe-48f6-a458-91c0eb1ede35",
+      "DisplayName": "MyArchive.DAL",
+      "ColorIndex": 4
+    },
+    "82ceea23-c166-4ea1-91da-4b8df6e390b0": {
+      "ProjectGuid": "82ceea23-c166-4ea1-91da-4b8df6e390b0",
+      "DisplayName": "BusinessObject",
+      "ColorIndex": 5
+    },
+    "e13ca3d6-ec1a-40c3-942a-bf049eedccba": {
+      "ProjectGuid": "e13ca3d6-ec1a-40c3-942a-bf049eedccba",
+      "DisplayName": "DataAccesLayer",
+      "ColorIndex": 6
+    },
+    "b2cbda0d-08bb-4a12-8fd6-03bef9eca5f2": {
+      "ProjectGuid": "b2cbda0d-08bb-4a12-8fd6-03bef9eca5f2",
+      "DisplayName": "ArchiveModel",
+      "ColorIndex": 7
+    },
+    "8a0abea6-22d7-4d73-b1d3-fd538a92f3d4": {
+      "ProjectGuid": "8a0abea6-22d7-4d73-b1d3-fd538a92f3d4",
+      "DisplayName": "ArchiveModel",
+      "ColorIndex": 8
+    },
+    "aa89c5eb-1160-421a-bdab-4afb3bab44ee": {
+      "ProjectGuid": "aa89c5eb-1160-421a-bdab-4afb3bab44ee",
+      "DisplayName": "Repository",
+      "ColorIndex": 9
+    },
+    "51bdd4f8-8173-4b40-9c70-368024c152b6": {
+      "ProjectGuid": "51bdd4f8-8173-4b40-9c70-368024c152b6",
+      "DisplayName": "ArchiveUI",
+      "ColorIndex": 10
+    }
+  },
+  "NextColorIndex": 11
+}
