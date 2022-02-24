@@ -10,6 +10,7 @@ namespace Repository
     {
         T Create(T obj);
         ICollection<T> GetAll();
+        T GetT(object obj);
         T Update(T obj);
         void Delete(T obj);
     }

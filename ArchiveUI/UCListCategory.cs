@@ -15,18 +15,23 @@ namespace ArchiveUI
     {
         public UCListCategory()
         {
+            Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(FrmMain.Lang);
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(FrmMain.Lang);
             InitializeComponent();
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
 
         private void UCListCategory_Load(object sender, EventArgs e)
         {
             RepoCategory repo = new RepoCategory();
-            dtGrid.DataSource = repo.GetAll().ToList();
+            gridView.DataSource = repo.GetAll().ToList();
+        }
+
+        public void Refresher()
+        {
+            Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(FrmMain.Lang);
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(FrmMain.Lang);
+            this.Controls.Clear();
+            InitializeComponent();
         }
     }
 }

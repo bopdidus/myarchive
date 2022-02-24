@@ -18,8 +18,8 @@ namespace ArchiveModel
         {
             var folder = Environment.SpecialFolder.LocalApplicationData;
             var path = Environment.GetFolderPath(folder);
-            Directory.CreateDirectory(path + @"\MyArchive");
-            DbPath = System.IO.Path.Join(path + @"\MyArchive", "archive.db");
+            Directory.CreateDirectory(path + @"/MyArchive");
+            DbPath = System.IO.Path.Join(path + @"/MyArchive", "archive.db");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

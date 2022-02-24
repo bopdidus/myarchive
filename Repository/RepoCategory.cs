@@ -31,9 +31,26 @@ namespace Repository
 
         public ICollection<Category> GetAll()
         {
+            try
+            {
+                using (var db = new ArchiveContext())
+                {
+                    return db.Categories.ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                //throw new Exception(ex.Message)
+                return null;
+            }
+           
+        }
+
+        public Category GetT(object obj)
+        {
             using (var db = new ArchiveContext())
             {
-                return db.Categories.ToList();
+                return db.Categories.FirstOrDefault(c => c.Name == obj.ToString());
             }
         }
 

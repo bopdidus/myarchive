@@ -23,9 +23,10 @@ namespace  ArchiveUI
             try
             {
                 RepoCategory repoCategory = new RepoCategory();
-                var cat = repoCategory.Create(new ArchiveModel.Category() { Name = txtName.Text });
+                var cat = repoCategory.Create(new ArchiveModel.Category(txtName.Text));
                 if (cat != null)
                 {
+                    txtName.Clear();
                     MessageBox.Show("Category created with success", "Information", MessageBoxButtons.OK);
                 }
             }
@@ -34,8 +35,15 @@ namespace  ArchiveUI
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 throw;
             }
-           
 
+        }
+
+        public void Refresher()
+        {
+            Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(FrmMain.Lang);
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(FrmMain.Lang);
+            this.Controls.Clear();
+            InitializeComponent();
         }
     }
 }

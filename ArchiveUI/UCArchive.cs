@@ -16,6 +16,8 @@ namespace ArchiveUI
     {
         public UCArchive()
         {
+            Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(FrmMain.Lang);
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(FrmMain.Lang);
             InitializeComponent();
             LoadCategories();
         }
@@ -24,7 +26,8 @@ namespace ArchiveUI
         {
             RepoCategory repo = new RepoCategory();
             cbCats.Items.Clear();
-            cbCats.Items.AddRange(repo.GetAll().ToArray());
+            if(repo.GetAll() != null) 
+                cbCats.Items.AddRange(repo.GetAll().ToArray());
         }
 
         private void linkBrowser_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -54,7 +57,7 @@ namespace ArchiveUI
                 var path = Environment.GetFolderPath(folder);
                 Directory.CreateDirectory(path + @"\MyArchive\Fichier");
                 string dest = System.IO.Path.Join(path + @"\MyArchive\Fichier", Path.GetFileName(this.openFileDialog1.FileName));;
-                File.Copy(this.openFileDialog1.FileName, dest);
+                File.Copy(this.openFileDialog1.FileName, dest,true);
                 Archive archive = new Archive()
                 {
                     Subject = txtSubject.Text,
@@ -67,6 +70,8 @@ namespace ArchiveUI
                 archive = repo.Create(archive);
                 if (archive != null)
                 {
+                    txtSubject.Clear();
+                    lbFile.Text = "";
                     MessageBox.Show("Archive created with success", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
@@ -76,6 +81,27 @@ namespace ArchiveUI
                 throw;
             }
             
+        }
+
+        private void lkToCat_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            if (!FrmMain.Instance.MContainer.Controls.ContainsKey("UCCaategory"))
+            {
+                UCCaategory uC = new UCCaategory();
+                uC.Dock = DockStyle.Fill;
+                FrmMain.Instance.MContainer.Controls.Add(uC);
+            }
+            FrmMain.Instance.Text = "         Add new Category";
+            FrmMain.Instance.MContainer.Controls["UCCaategory"].BringToFront();
+            FrmMain.Instance.MBack.Visible = true;
+        }
+        
+        public void Refresher()
+        {
+            Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(FrmMain.Lang);
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(FrmMain.Lang);
+            this.Controls.Clear();
+            InitializeComponent();
         }
     }
 }

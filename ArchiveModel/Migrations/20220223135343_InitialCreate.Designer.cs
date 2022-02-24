@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ArchiveModel.Migrations
 {
     [DbContext(typeof(ArchiveContext))]
-    [Migration("20220210140629_InitialCreate")]
+    [Migration("20220223135343_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

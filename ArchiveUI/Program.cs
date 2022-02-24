@@ -1,3 +1,5 @@
+using System.Globalization;
+
 namespace ArchiveUI
 {
     internal static class Program

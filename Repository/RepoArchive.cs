@@ -14,6 +14,8 @@ namespace Repository
             Archive entityArchive = new Archive();
             using (var db = new ArchiveContext())
             {
+                var cat = db.Categories.FirstOrDefault(c => c.Id == obj.GetCategory.Id);
+                obj.GetCategory = (Category)cat;
                 entityArchive = db.Archives.Add(obj).Entity;
                 db.SaveChanges();
             }
@@ -34,6 +36,14 @@ namespace Repository
             using (var db = new ArchiveContext())
             {
                 return db.Archives.ToList();
+            }
+        }
+
+        public Archive GetT(object obj)
+        {
+            using (var db = new ArchiveContext())
+            {
+                return db.Archives.FirstOrDefault(a => a.Equals((obj)));
             }
         }
 

@@ -57,4 +57,175 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;metroTile5.Name" xml:space="preserve">
+    <value>metroTile5</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="metroTile4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 262</value>
+  </data>
+  <data name="&gt;&gt;metroTile3.Name" xml:space="preserve">
+    <value>metroTile3</value>
+  </data>
+  <data name="&gt;&gt;metroTile2.Name" xml:space="preserve">
+    <value>metroTile2</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 506</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="metroTile5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="metroTile1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="metroTile3.Text" xml:space="preserve">
+    <value>List of categories</value>
+  </data>
+  <data name="metroTile3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 128</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroUserControl, MetroFramework, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="metroTile1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;metroTile2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>UCDashboard</value>
+  </data>
+  <data name="&gt;&gt;metroTile2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;metroTile1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="metroTile3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 190</value>
+  </data>
+  <data name="metroTile1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>473, 128</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="metroTile4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;metroTile5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;metroTile5.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroTile1.Name" xml:space="preserve">
+    <value>metroTile1</value>
+  </data>
+  <data name="metroTile2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;metroTile4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="metroTile2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 55</value>
+  </data>
+  <data name="&gt;&gt;metroTile1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;metroTile5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;metroTile3.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroTile2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;metroTile4.Name" xml:space="preserve">
+    <value>metroTile4</value>
+  </data>
+  <data name="metroTile3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="metroTile2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="metroTile5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="metroTile4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;metroTile3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;metroTile3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;metroTile1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="metroTile5.Text" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="metroTile5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 128</value>
+  </data>
+  <data name="metroTile3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="metroTile1.Text" xml:space="preserve">
+    <value>List of archives</value>
+  </data>
+  <data name="metroTile3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="metroTile4.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="metroTile5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="metroTile2.Text" xml:space="preserve">
+    <value>Archive</value>
+  </data>
+  <data name="metroTile5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 55</value>
+  </data>
+  <data name="metroTile1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 336</value>
+  </data>
+  <data name="metroTile2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 128</value>
+  </data>
+  <data name="metroTile1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="metroTile2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="metroTile4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 55</value>
+  </data>
+  <data name="&gt;&gt;metroTile4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="metroTile4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;metroTile4.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTile, MetroFramework, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>
