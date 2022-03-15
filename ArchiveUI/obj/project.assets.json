@@ -499,11 +499,25 @@
           "bin/placeholder/ArchiveModel.dll": {}
         }
       },
-      "Repository/1.0.0": {
+      "DTO/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "ArchiveModel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DTO.dll": {}
+        }
+      },
+      "Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ArchiveModel": "1.0.0",
+          "DTO": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Repository.dll": {}
@@ -1215,6 +1229,11 @@
       "path": "../ArchiveModel/ArchiveModel.csproj",
       "msbuildProject": "../ArchiveModel/ArchiveModel.csproj"
     },
+    "DTO/1.0.0": {
+      "type": "project",
+      "path": "../DTO/DTO.csproj",
+      "msbuildProject": "../DTO/DTO.csproj"
+    },
     "Repository/1.0.0": {
       "type": "project",
       "path": "../Repository/Repository.csproj",
@@ -1224,6 +1243,7 @@
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "ArchiveModel >= 1.0.0",
+      "DTO >= 1.0.0",
       "MetroModernUI >= 1.4.0",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.2",
       "Repository >= 1.0.0"
@@ -1263,6 +1283,9 @@
           "projectReferences": {
             "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\ArchiveModel\\ArchiveModel.csproj": {
               "projectPath": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\ArchiveModel\\ArchiveModel.csproj"
+            },
+            "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\DTO\\DTO.csproj"
             },
             "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\Repository\\Repository.csproj": {
               "projectPath": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\Repository\\Repository.csproj"

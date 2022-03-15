@@ -1,22 +1,24 @@
 ﻿using ArchiveModel;
+using DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace Repository
 {
-    public class RepoArchive : ICRUD<Archive>
+    public class RepoArchive : ICRUD<Archive, ArchiveDTO>
     {
-        public Archive Create(Archive obj)
+        public Archive Create(ArchiveDTO objDTO)
         {
-            Archive entityArchive = new Archive();
+            Archive entityArchive = objDTO.DtoToModel();
             using (var db = new ArchiveContext())
             {
-                var cat = db.Categories.FirstOrDefault(c => c.Id == obj.GetCategory.Id);
-                obj.GetCategory = (Category)cat;
-                entityArchive = db.Archives.Add(obj).Entity;
+                var cat = db.Categories.FirstOrDefault(c => c.Name == objDTO.Category);
+                entityArchive.Category = (Category)cat;
+                entityArchive = db.Archives.Add(entityArchive).Entity;
                 db.SaveChanges();
             }
             return entityArchive;
@@ -31,29 +33,37 @@ namespace Repository
             }
         }
 
-        public ICollection<Archive> GetAll()
+        public ICollection<ArchiveDTO> GetAll()
+        {
+            List<ArchiveDTO> archiveDTOs = new List<ArchiveDTO>();
+            using (var db = new ArchiveContext())
+            {
+                foreach(Archive item in db.Archives.Include("Category").ToList() )
+                {
+                    ArchiveDTO archiveDTO = new ArchiveDTO();
+                    archiveDTO.ModelToDTO(item);
+                    archiveDTOs.Add(archiveDTO);
+                }
+            }
+
+            return archiveDTOs;
+        }
+
+        public Archive GetT(ArchiveDTO obj)
         {
             using (var db = new ArchiveContext())
             {
-                return db.Archives.ToList();
+                return db.Archives.FirstOrDefault(a => a.Id == obj.Id && a.Subject == obj.Subject && a.ArchiveFile == obj.ArchiveFile && a.Category.Name == obj.Category);
             }
         }
 
-        public Archive GetT(object obj)
+        public Archive Update(ArchiveDTO obj)
         {
-            using (var db = new ArchiveContext())
-            {
-                return db.Archives.FirstOrDefault(a => a.Equals((obj)));
-            }
-        }
-
-        public Archive Update(Archive obj)
-        {
-            Archive entityArchive = new Archive();
+            Archive entityArchive = obj.DtoToModel();
 
             using (var db = new ArchiveContext())
             {
-                entityArchive = db.Archives.Update(obj).Entity;
+                entityArchive = db.Archives.Update(entityArchive).Entity;
                 db.SaveChanges();
             }
             return entityArchive;

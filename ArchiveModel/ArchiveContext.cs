@@ -26,6 +26,11 @@ namespace ArchiveModel
             modelBuilder.Entity<Category>()
                 .HasIndex(c => c.Name)
                 .IsUnique();
+
+            modelBuilder.Entity<Archive>()
+               .HasOne(a => a.Category)
+               .WithMany();
+
         }
         // The following configures EF to create a Sqlite database file in the
         // special "local" folder for your platform.

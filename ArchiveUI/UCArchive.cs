@@ -1,4 +1,5 @@
 ﻿using ArchiveModel;
+using DTO;
 using Repository;
 using System;
 using System.Collections.Generic;
@@ -58,16 +59,17 @@ namespace ArchiveUI
                 Directory.CreateDirectory(path + @"\MyArchive\Fichier");
                 string dest = System.IO.Path.Join(path + @"\MyArchive\Fichier", Path.GetFileName(this.openFileDialog1.FileName));;
                 File.Copy(this.openFileDialog1.FileName, dest,true);
-                Archive archive = new Archive()
+                ArchiveDTO archiveDTO = new ArchiveDTO()
                 {
                     Subject = txtSubject.Text,
                     ReceptionDate = dtpRecep.Value,
                     ArchiveFile = dest,
-                    GetCategory = (cbCats.SelectedIndex != -1) ? (cbCats.Items[cbCats.SelectedIndex] as Category) : null
+                    Category = (cbCats.SelectedIndex != -1) ? (cbCats.Items[cbCats.SelectedIndex] as Category).Name : null
                 };
 
                 RepoArchive repo = new RepoArchive();
-                archive = repo.Create(archive);
+                Archive archive = repo.Create(archiveDTO);
+
                 if (archive != null)
                 {
                     txtSubject.Clear();

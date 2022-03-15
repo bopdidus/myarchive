@@ -4,6 +4,9 @@
     <Compile Update="UCArchive.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UCArchiveView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UCListCategory.cs">
       <SubType>UserControl</SubType>
     </Compile>

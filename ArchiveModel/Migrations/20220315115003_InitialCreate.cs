@@ -31,23 +31,23 @@ namespace ArchiveModel.Migrations
                     Subject = table.Column<string>(type: "TEXT", nullable: false),
                     ReceptionDate = table.Column<DateTime>(type: "TEXT", nullable: false),
                     ArchiveFile = table.Column<string>(type: "TEXT", nullable: false),
-                    GetCategoryId = table.Column<int>(type: "INTEGER", nullable: false)
+                    CategoryId = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Archives", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Archives_Categories_GetCategoryId",
-                        column: x => x.GetCategoryId,
+                        name: "FK_Archives_Categories_CategoryId",
+                        column: x => x.CategoryId,
                         principalTable: "Categories",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Archives_GetCategoryId",
+                name: "IX_Archives_CategoryId",
                 table: "Archives",
-                column: "GetCategoryId");
+                column: "CategoryId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Categories_Name",

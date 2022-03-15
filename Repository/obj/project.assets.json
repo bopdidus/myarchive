@@ -448,6 +448,19 @@
         "runtime": {
           "bin/placeholder/ArchiveModel.dll": {}
         }
+      },
+      "DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ArchiveModel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DTO.dll": {}
+        }
       }
     }
   },
@@ -1082,11 +1095,17 @@
       "type": "project",
       "path": "../ArchiveModel/ArchiveModel.csproj",
       "msbuildProject": "../ArchiveModel/ArchiveModel.csproj"
+    },
+    "DTO/1.0.0": {
+      "type": "project",
+      "path": "../DTO/DTO.csproj",
+      "msbuildProject": "../DTO/DTO.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "ArchiveModel >= 1.0.0"
+      "ArchiveModel >= 1.0.0",
+      "DTO >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1123,6 +1142,9 @@
           "projectReferences": {
             "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\ArchiveModel\\ArchiveModel.csproj": {
               "projectPath": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\ArchiveModel\\ArchiveModel.csproj"
+            },
+            "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\DTO\\DTO.csproj"
             }
           }
         }

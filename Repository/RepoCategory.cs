@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class RepoCategory : ICRUD<Category>
+    public class RepoCategory : ICRUD<Category, Category>
     {
         public Category Create(Category obj)
         {
@@ -46,7 +46,7 @@ namespace Repository
            
         }
 
-        public Category GetT(object obj)
+        public Category GetT(Category obj)
         {
             using (var db = new ArchiveContext())
             {

@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ArchiveModel\ArchiveModel.csproj" />
+    <ProjectReference Include="..\DTO\DTO.csproj" />
   </ItemGroup>
 
 </Project>

@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ArchiveModel\ArchiveModel.csproj" />
+    <ProjectReference Include="..\DTO\DTO.csproj" />
     <ProjectReference Include="..\Repository\Repository.csproj" />
   </ItemGroup>
 

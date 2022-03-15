@@ -86,3 +86,8 @@ C:\Users\armel\Documents\current_project\MyArchive\ArchiveUI\obj\Debug\net6.0-wi
 C:\Users\armel\Documents\current_project\MyArchive\ArchiveUI\obj\Debug\net6.0-windows\ArchiveUI.UCListCategory.resources
 C:\Users\armel\Documents\current_project\MyArchive\ArchiveUI\obj\Debug\net6.0-windows\ArchiveUI.UCListCategory.fr.resources
 C:\Users\armel\Documents\current_project\MyArchive\ArchiveUI\obj\Debug\net6.0-windows\ArchiveUI.UCListCategory.de.resources
+C:\Users\armel\Documents\current_project\MyArchive\ArchiveUI\bin\Debug\net6.0-windows\DTO.dll
+C:\Users\armel\Documents\current_project\MyArchive\ArchiveUI\bin\Debug\net6.0-windows\DTO.pdb
+C:\Users\armel\Documents\current_project\MyArchive\ArchiveUI\obj\Debug\net6.0-windows\ArchiveUI.UCArchiveView.resources
+C:\Users\armel\Documents\current_project\MyArchive\ArchiveUI\obj\Debug\net6.0-windows\ArchiveUI.UCArchiveView.de.resources
+C:\Users\armel\Documents\current_project\MyArchive\ArchiveUI\obj\Debug\net6.0-windows\ArchiveUI.UCArchiveView.fr.resources

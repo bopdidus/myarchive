@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "Repository/1.0.0": {
         "dependencies": {
-          "ArchiveModel": "1.0.0"
+          "ArchiveModel": "1.0.0",
+          "DTO": "1.0.0"
         },
         "runtime": {
           "Repository.dll": {}
@@ -345,6 +346,14 @@
         "runtime": {
           "ArchiveModel.dll": {}
         }
+      },
+      "DTO/1.0.0": {
+        "dependencies": {
+          "ArchiveModel": "1.0.0"
+        },
+        "runtime": {
+          "DTO.dll": {}
+        }
       }
     }
   },
@@ -551,6 +560,11 @@
       "hashPath": "system.text.json.6.0.0.nupkg.sha512"
     },
     "ArchiveModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DTO/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

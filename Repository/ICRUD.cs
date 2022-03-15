@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    internal interface ICRUD<T>
+    internal interface ICRUD<T, K>
     {
-        T Create(T obj);
-        ICollection<T> GetAll();
-        T GetT(object obj);
-        T Update(T obj);
+        T Create(K obj);
+        ICollection<K> GetAll();
+        T GetT(K obj);
+        T Update(K obj);
         void Delete(T obj);
     }
 }

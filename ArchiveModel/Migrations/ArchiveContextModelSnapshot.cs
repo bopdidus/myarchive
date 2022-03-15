@@ -27,7 +27,7 @@ namespace ArchiveModel.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("GetCategoryId")
+                    b.Property<int>("CategoryId")
                         .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("ReceptionDate")
@@ -39,7 +39,7 @@ namespace ArchiveModel.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("GetCategoryId");
+                    b.HasIndex("CategoryId");
 
                     b.ToTable("Archives");
                 });
@@ -64,13 +64,13 @@ namespace ArchiveModel.Migrations
 
             modelBuilder.Entity("ArchiveModel.Archive", b =>
                 {
-                    b.HasOne("ArchiveModel.Category", "GetCategory")
+                    b.HasOne("ArchiveModel.Category", "Category")
                         .WithMany()
-                        .HasForeignKey("GetCategoryId")
+                        .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("GetCategory");
+                    b.Navigation("Category");
                 });
 #pragma warning restore 612, 618
         }

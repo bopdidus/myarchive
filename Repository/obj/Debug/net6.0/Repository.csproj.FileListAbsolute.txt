@@ -16,3 +16,5 @@ C:\Users\armel\Documents\current_project\MyArchive\Repository\obj\Debug\net6.0\R
 C:\Users\armel\Documents\current_project\MyArchive\Repository\obj\Debug\net6.0\Repository.dll
 C:\Users\armel\Documents\current_project\MyArchive\Repository\obj\Debug\net6.0\ref\Repository.dll
 C:\Users\armel\Documents\current_project\MyArchive\Repository\obj\Debug\net6.0\Repository.pdb
+C:\Users\armel\Documents\current_project\MyArchive\Repository\bin\Debug\net6.0\DTO.dll
+C:\Users\armel\Documents\current_project\MyArchive\Repository\bin\Debug\net6.0\DTO.pdb

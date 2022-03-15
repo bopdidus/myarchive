@@ -60,7 +60,12 @@
       "ProjectGuid": "51bdd4f8-8173-4b40-9c70-368024c152b6",
       "DisplayName": "ArchiveUI",
       "ColorIndex": 10
+    },
+    "8dfd0497-8295-4332-a5f1-0cd693f0a714": {
+      "ProjectGuid": "8dfd0497-8295-4332-a5f1-0cd693f0a714",
+      "DisplayName": "DTO",
+      "ColorIndex": 11
     }
   },
-  "NextColorIndex": 11
+  "NextColorIndex": 12
 }

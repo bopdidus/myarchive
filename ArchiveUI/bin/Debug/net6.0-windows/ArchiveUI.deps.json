@@ -9,6 +9,7 @@
       "ArchiveUI/1.0.0": {
         "dependencies": {
           "ArchiveModel": "1.0.0",
+          "DTO": "1.0.0",
           "MetroModernUI": "1.4.0",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.2",
           "Repository": "1.0.0"
@@ -398,9 +399,18 @@
           "ArchiveModel.dll": {}
         }
       },
-      "Repository/1.0.0": {
+      "DTO/1.0.0": {
         "dependencies": {
           "ArchiveModel": "1.0.0"
+        },
+        "runtime": {
+          "DTO.dll": {}
+        }
+      },
+      "Repository/1.0.0": {
+        "dependencies": {
+          "ArchiveModel": "1.0.0",
+          "DTO": "1.0.0"
         },
         "runtime": {
           "Repository.dll": {}
@@ -639,6 +649,11 @@
       "hashPath": "system.text.json.6.0.0.nupkg.sha512"
     },
     "ArchiveModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DTO/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

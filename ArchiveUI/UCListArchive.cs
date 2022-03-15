@@ -1,4 +1,6 @@
-﻿using Repository;
+﻿using ArchiveModel;
+using DTO;
+using Repository;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -23,9 +25,10 @@ namespace ArchiveUI
         private void UCListArchive_Load(object sender, EventArgs e)
         {
             RepoCategory repo = new RepoCategory();
+            cbCats.Items.Clear();
             cbCats.Items.AddRange(repo.GetAll().ToArray());
             RepoArchive repos = new RepoArchive();
-           // dtGrid.AutoGenerateColumns = false;
+            dtGrid.AutoGenerateColumns = false;
             dtGrid.DataSource = repos.GetAll().ToList();
         }
 
@@ -33,10 +36,12 @@ namespace ArchiveUI
         {
             if(cbCats.SelectedIndex != -1)
             {
-                dtGrid.Rows.Clear();
+                btnClear.Enabled = true;
+                dtGrid.DataSource = null;
                 RepoArchive repos = new RepoArchive();
-                dtGrid.DataSource = repos.GetAll().Select(a => a.ReceptionDate >= statdate.Value && a.ReceptionDate <= enddate.Value && a.GetCategory.Name == cbCats.Items[cbCats.SelectedIndex]).ToList();
+                dtGrid.DataSource = repos.GetAll().Select(a => a.ReceptionDate >= statdate.Value && a.ReceptionDate <= enddate.Value && a.Category == (cbCats.SelectedItem as Category).Name).ToList();
             }
+            
             
         }
 
@@ -57,7 +62,7 @@ namespace ArchiveUI
                     {
                         Subject = dtGrid.SelectedRows[i].Cells[1].Value.ToString(),
                         ReceptionDate = DateTime.Parse(dtGrid.SelectedRows[i].Cells[2].Value.ToString()),
-                        GetCategory = repo.GetT(dtGrid.SelectedRows[i].Cells[3].Value.ToString())
+                        Category = repo.GetT(cbCats.SelectedItem as Category )
                     };
                     repos.Delete(archive);
                 }
@@ -83,6 +88,55 @@ namespace ArchiveUI
             Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(FrmMain.Lang);
             this.Controls.Clear();
             InitializeComponent();
+        }
+
+       
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            if(dtGrid.SelectedRows.Count != 0)
+            {
+                if (FrmMain.Instance.MContainer.Controls.ContainsKey("UCArchiveView"))
+                {
+                    FrmMain.Instance.MContainer.Controls.RemoveByKey("UCArchiveView");
+                }
+                Archive arch = (dtGrid.Rows[0].DataBoundItem as ArchiveDTO).DtoToModel();
+                UCArchiveView uC = new UCArchiveView(arch);
+                uC.Dock = DockStyle.Fill;
+                FrmMain.Instance.MContainer.Controls.Add(uC);
+                FrmMain.Instance.MContainer.Controls["UCArchiveView"].BringToFront();
+                FrmMain.Instance.MBack.Visible = true;
+            }
+            else
+            {
+                MessageBox.Show("You must at least a row selected", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void btnView_Click(object sender, EventArgs e)
+        {
+            if(dtGrid.SelectedRows.Count != 0)
+            {
+                if (FrmMain.Instance.MContainer.Controls.ContainsKey("UCArchiveView"))
+                {
+                    FrmMain.Instance.MContainer.Controls.RemoveByKey("UCArchiveView");
+                }
+                UCArchiveView uC = new UCArchiveView((dtGrid.Rows[0].DataBoundItem as ArchiveDTO));
+                uC.Dock = DockStyle.Fill;
+                FrmMain.Instance.MContainer.Controls.Add(uC);
+                FrmMain.Instance.MContainer.Controls["UCArchiveView"].BringToFront();
+                FrmMain.Instance.MBack.Visible = true;
+                
+            }
+            else
+            {
+                MessageBox.Show("You must at least a row selected", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            btnClear.Enabled = false;
         }
     }
 }
