@@ -49,6 +49,7 @@ namespace ArchiveUI
         }
         public FrmMain()
         {
+            
             Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(Lang);
             Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(Lang);
             InitializeComponent();
@@ -77,5 +78,7 @@ namespace ArchiveUI
             Thread.CurrentThread.CurrentUICulture = ci;
           
         }
+
+       
     }
 }

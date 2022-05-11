@@ -124,6 +124,14 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "MetroFramework": {
+              "target": "Package",
+              "version": "[1.2.0.3, )"
+            },
+            "MetroFramework.Fonts": {
+              "target": "Package",
+              "version": "[1.2.0.3, )"
+            },
             "MetroModernUI": {
               "target": "Package",
               "version": "[1.4.0, )"

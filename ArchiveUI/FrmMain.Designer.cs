@@ -60,7 +60,7 @@
             this.Controls.Add(this.mPanel);
             this.MaximizeBox = false;
             this.Name = "FrmMain";
-            this.Load += new System.EventHandler(this.FrmMain_Load);
+            this.Shown += new System.EventHandler(this.FrmMain_Shown);
             this.ResumeLayout(false);
 
         }

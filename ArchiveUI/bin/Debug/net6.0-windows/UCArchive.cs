@@ -33,7 +33,7 @@ namespace ArchiveUI
 
         private void linkBrowser_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            this.openFileDialog1.Filter = "File (*.BMP;*.JPG;*.GIF,*.PNG,*.TIFF)|*.BMP;*.JPG;*.GIF;*.PNG;*.TIFF|*.PDF|*.pdf";
+            this.openFileDialog1.Filter = "Images (*.BMP;*.JPG;*.GIF,*.PNG,*.TIFF)|*.BMP;*.JPG;*.GIF;*.PNG;*.TIFF|*.PDF|*.pdf";
             this.openFileDialog1.Multiselect = false;
             this.openFileDialog1.Title = "Select the file";
             if(this.openFileDialog1.ShowDialog() == DialogResult.OK)

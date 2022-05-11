@@ -91,3 +91,10 @@ C:\Users\armel\Documents\current_project\MyArchive\ArchiveUI\bin\Debug\net6.0-wi
 C:\Users\armel\Documents\current_project\MyArchive\ArchiveUI\obj\Debug\net6.0-windows\ArchiveUI.UCArchiveView.resources
 C:\Users\armel\Documents\current_project\MyArchive\ArchiveUI\obj\Debug\net6.0-windows\ArchiveUI.UCArchiveView.de.resources
 C:\Users\armel\Documents\current_project\MyArchive\ArchiveUI\obj\Debug\net6.0-windows\ArchiveUI.UCArchiveView.fr.resources
+C:\Users\armel\Documents\current_project\MyArchive\ArchiveUI\bin\Debug\net6.0-windows\UCArchive.cs
+C:\Users\armel\Documents\current_project\MyArchive\ArchiveUI\bin\Debug\net6.0-windows\UCArchiveView.cs
+C:\Users\armel\Documents\current_project\MyArchive\ArchiveUI\bin\Debug\net6.0-windows\UCCaategory.cs
+C:\Users\armel\Documents\current_project\MyArchive\ArchiveUI\bin\Debug\net6.0-windows\UCDashboard.cs
+C:\Users\armel\Documents\current_project\MyArchive\ArchiveUI\bin\Debug\net6.0-windows\UCListArchive.cs
+C:\Users\armel\Documents\current_project\MyArchive\ArchiveUI\bin\Debug\net6.0-windows\UCListCategory.cs
+C:\Users\armel\Documents\current_project\MyArchive\ArchiveUI\bin\Debug\net6.0-windows\UCSetting.cs
