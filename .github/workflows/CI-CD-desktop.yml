@@ -42,17 +42,15 @@ jobs:
     - name: Execute unit tests
       run: dotnet test
 
-    # Restore the application to populate the obj folder with RuntimeIdentifiers
-    - name: Restore the application
-      run: msbuild $env:Solution_Name /t:Restore /p:Configuration=$env:Configuration
-      env:
-        Configuration: ${{ matrix.configuration }}
+    - name: Restore
+      run: msbuild $env:Solution_Name /t:Restore /p:Configuration=${{ matrix.configuration }} /p:Platform="x64"
 
     - name: Build Solution
-      run: dotnet build $env:Solution_Name --configuration ${{ matrix.configuration }} --no-restore
+      run: msbuild $env:Solution_Name /p:Configuration=${{ matrix.configuration }} /p:Platform="x64" /p:RuntimeIdentifier=$env:Runtime_Identifier
 
     - name: Publish Main Project
-      run: dotnet publish $env:Main_Project_Path --configuration ${{ matrix.configuration }} --output ./publish --no-build
+      run: dotnet publish $env:Main_Project_Path --configuration ${{ matrix.configuration }} --output ./publish --runtime $env:Runtime_Identifier --no-build --self-contained false
+
 
         
   Deploy:
