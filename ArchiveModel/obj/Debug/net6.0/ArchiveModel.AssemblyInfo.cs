@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArchiveModel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e024012053791a3b21de8eeef36673e66d7b5945")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArchiveModel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArchiveModel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

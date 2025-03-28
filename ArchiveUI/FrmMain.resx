@@ -1,4 +1,64 @@
-﻿<root>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -90,14 +150,14 @@
   </data>
   <data name="mLink.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAXVJREFUSEvt
-        1t0qBVEYxvG5CAcU5UBIPlLImRxwrJTcAu2Eq3APDpy7AHEjiBySUPJRlM//U3vVanrXmlkzo+1gP/Wr
-        2dO71tuavVozWTf/MX3YxAlOcd+m62NsoBeNZQiH+MJPAdWoVmNqZRWvsJrEvGAFlbKLb1gTl6HVbyMp
-        66jT1NEcayiVfjzDmijvDvNY9O7lPUEbszAHsCbIU9MJKHOwapx9RDOIMrvXbzoO/bbqnE8MIJgdWAN9
-        1xiGMoNHWHV5WwhGB4E1yPFXOoZbWHWWIwRzCWuQ+CtVc51aVl3IOYKJ7WY9VmUUN7BqYrS7g4mdUrNQ
-        pvEAqyZGiwrmAtYg0SZyzaus+gzBpGyuKaT8z9HN1YI1yOevfATadFZdnl6bwVQ5QCZR+wBRqhyZegJW
-        jVN4ZCqpLwk1XfDu5ZV+SSjL0OOxJkrxgSUkpSMfAi4d+fRx6cEe3mA18alGtRrTWPzP2yu8t+n6Tz5v
-        u2kgWfYLV1mbtoLHXP4AAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAYNJREFUSEvt
+        ls0qRVEUx38PYUBRBkLykUJmMmCslLwCSXgK72Bg7gHEiyAyJKHkoyif/Wuf2mdZ5+xz7r26BvdX/zq3
+        vdb6t/ddrb2hwz+kB1gHjoET4C5I30fAGtBtk5phADgAPoHvhBSjWOU0xTLw4hik9Aws2WJV2QG+nKJV
+        pd1v2aIpVps0zaQaK7Z4Eb3Ak1PE0y0wC8w7a5keQ2Mm2XeSPcl0LOTMOOux9ozHL/ordm9sOhp+25hY
+        H0Cf8cqx7SRZXQGDIX4KeHBiPG0arxwaBDYhVrzTEeDGiSnSofHKceEkZIp3KnNNLRtTpjPjlaOsm3Ws
+        Yhi4dtZTUncXUjalpkPMJHDvrKekTRVy7iRkUhNl5o3s+tR45ajTXBM1/+fS5tpwEqzinQ+FprMxnnRt
+        FtLIABlvxQARjYxMnYBdj5UcmaLuJSHTOWctU+VLQiyG47FF6uodWLDFU7TlIZDRlqdPRhewC7w6BlaK
+        UaxyWkb8vL0E3oL0/SfP2w4t4QdXWZu26OdOqgAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="mLink.Location" type="System.Drawing.Point, System.Drawing">

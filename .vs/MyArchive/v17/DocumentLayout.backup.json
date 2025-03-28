@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51BDD4F8-8173-4B40-9C70-368024C152B6}|ArchiveUI\\ArchiveUI.csproj|C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\archiveui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{51BDD4F8-8173-4B40-9C70-368024C152B6}|ArchiveUI\\ArchiveUI.csproj|solutionrelative:archiveui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51BDD4F8-8173-4B40-9C70-368024C152B6}|ArchiveUI\\ArchiveUI.csproj|c:\\users\\armel\\documents\\doc\\myarchive\\myarchive\\archiveui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51BDD4F8-8173-4B40-9C70-368024C152B6}|ArchiveUI\\ArchiveUI.csproj|solutionrelative:archiveui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51BDD4F8-8173-4B40-9C70-368024C152B6}|ArchiveUI\\ArchiveUI.csproj|c:\\users\\armel\\documents\\doc\\myarchive\\myarchive\\archiveui\\ucdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{51BDD4F8-8173-4B40-9C70-368024C152B6}|ArchiveUI\\ArchiveUI.csproj|solutionrelative:archiveui\\ucdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51BDD4F8-8173-4B40-9C70-368024C152B6}|ArchiveUI\\ArchiveUI.csproj|C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\archiveui\\ucarchive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{51BDD4F8-8173-4B40-9C70-368024C152B6}|ArchiveUI\\ArchiveUI.csproj|solutionrelative:archiveui\\ucarchive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51BDD4F8-8173-4B40-9C70-368024C152B6}|ArchiveUI\\ArchiveUI.csproj|c:\\users\\armel\\documents\\doc\\myarchive\\myarchive\\archiveui\\ucarchive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51BDD4F8-8173-4B40-9C70-368024C152B6}|ArchiveUI\\ArchiveUI.csproj|solutionrelative:archiveui\\ucarchive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UCDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveUI\\UCDashboard.cs",
+              "RelativeDocumentMoniker": "ArchiveUI\\UCDashboard.cs",
+              "ToolTip": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveUI\\UCDashboard.cs [Design]",
+              "RelativeToolTip": "ArchiveUI\\UCDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T13:56:52.92Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UCArchive.cs",
+              "DocumentMoniker": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveUI\\UCArchive.cs",
+              "RelativeDocumentMoniker": "ArchiveUI\\UCArchive.cs",
+              "ToolTip": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveUI\\UCArchive.cs",
+              "RelativeToolTip": "ArchiveUI\\UCArchive.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwCMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T13:47:04.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UCArchive.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveUI\\UCArchive.cs",
+              "RelativeDocumentMoniker": "ArchiveUI\\UCArchive.cs",
+              "ToolTip": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveUI\\UCArchive.cs [Design]",
+              "RelativeToolTip": "ArchiveUI\\UCArchive.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T13:47:06.66Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmMain.cs",
+              "DocumentMoniker": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveUI\\FrmMain.cs",
+              "RelativeDocumentMoniker": "ArchiveUI\\FrmMain.cs",
+              "ToolTip": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveUI\\FrmMain.cs",
+              "RelativeToolTip": "ArchiveUI\\FrmMain.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwEUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T13:47:06.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveUI\\FrmMain.cs",
+              "RelativeDocumentMoniker": "ArchiveUI\\FrmMain.cs",
+              "ToolTip": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveUI\\FrmMain.cs [Design]",
+              "RelativeToolTip": "ArchiveUI\\FrmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T13:47:06.708Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

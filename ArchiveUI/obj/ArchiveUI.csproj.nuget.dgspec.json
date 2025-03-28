@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\ArchiveUI\\ArchiveUI.csproj": {}
+    "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveUI\\ArchiveUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\ArchiveModel\\ArchiveModel.csproj": {
+    "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveModel\\ArchiveModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\ArchiveModel\\ArchiveModel.csproj",
+        "projectUniqueName": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveModel\\ArchiveModel.csproj",
         "projectName": "ArchiveModel",
-        "projectPath": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\ArchiveModel\\ArchiveModel.csproj",
+        "projectPath": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveModel\\ArchiveModel.csproj",
         "packagesPath": "C:\\Users\\armel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\ArchiveModel\\obj\\",
+        "outputPath": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net6.0": {
@@ -61,7 +68,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -70,18 +78,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\ArchiveUI\\ArchiveUI.csproj": {
+    "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveUI\\ArchiveUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\ArchiveUI\\ArchiveUI.csproj",
+        "projectUniqueName": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveUI\\ArchiveUI.csproj",
         "projectName": "ArchiveUI",
-        "projectPath": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\ArchiveUI\\ArchiveUI.csproj",
+        "projectPath": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveUI\\ArchiveUI.csproj",
         "packagesPath": "C:\\Users\\armel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\ArchiveUI\\obj\\",
+        "outputPath": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -92,24 +100,25 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows7.0"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\ArchiveModel\\ArchiveModel.csproj": {
-                "projectPath": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\ArchiveModel\\ArchiveModel.csproj"
+              "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveModel\\ArchiveModel.csproj": {
+                "projectPath": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveModel\\ArchiveModel.csproj"
               },
-              "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\DTO\\DTO.csproj": {
-                "projectPath": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\DTO\\DTO.csproj"
+              "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\DTO\\DTO.csproj"
               },
-              "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\Repository\\Repository.csproj"
+              "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\Repository\\Repository.csproj"
               }
             }
           }
@@ -118,7 +127,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net6.0-windows7.0": {
@@ -149,7 +164,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -161,18 +177,18 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\DTO\\DTO.csproj": {
+    "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\DTO\\DTO.csproj",
+        "projectUniqueName": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\DTO\\DTO.csproj",
+        "projectPath": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\DTO\\DTO.csproj",
         "packagesPath": "C:\\Users\\armel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\DTO\\obj\\",
+        "outputPath": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -187,14 +203,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\ArchiveModel\\ArchiveModel.csproj": {
-                "projectPath": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\ArchiveModel\\ArchiveModel.csproj"
+              "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveModel\\ArchiveModel.csproj": {
+                "projectPath": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveModel\\ArchiveModel.csproj"
               }
             }
           }
@@ -203,7 +220,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net6.0": {
@@ -214,7 +237,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -223,18 +247,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\Repository\\Repository.csproj": {
+    "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\Repository\\Repository.csproj",
+        "projectPath": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\armel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\Repository\\obj\\",
+        "outputPath": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -249,17 +273,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\ArchiveModel\\ArchiveModel.csproj": {
-                "projectPath": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\ArchiveModel\\ArchiveModel.csproj"
+              "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveModel\\ArchiveModel.csproj": {
+                "projectPath": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveModel\\ArchiveModel.csproj"
               },
-              "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\DTO\\DTO.csproj": {
-                "projectPath": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\DTO\\DTO.csproj"
+              "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\DTO\\DTO.csproj"
               }
             }
           }
@@ -268,7 +293,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net6.0": {
@@ -279,7 +310,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -288,7 +320,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

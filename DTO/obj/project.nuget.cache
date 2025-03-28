@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2Y4xafH0bSOkJjupwaZAN6IxCgMHbga4bxLSY3MR9AdChcSHZ0Sc+VXrS6OJEUmNwRMAfJZ+KeZTKtAGhk8wCQ==",
+  "dgSpecHash": "SHXnsYAut/0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\DTO\\DTO.csproj",
+  "projectFilePath": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\DTO\\DTO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\armel\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.2\\microsoft.data.sqlite.core.6.0.2.nupkg.sha512",
     "C:\\Users\\armel\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.2\\microsoft.entityframeworkcore.6.0.2.nupkg.sha512",

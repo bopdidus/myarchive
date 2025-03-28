@@ -416,7 +416,10 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.2"
         },
         "runtime": {
-          "ArchiveModel.dll": {}
+          "ArchiveModel.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "DTO/1.0.0": {
@@ -424,7 +427,10 @@
           "ArchiveModel": "1.0.0"
         },
         "runtime": {
-          "DTO.dll": {}
+          "DTO.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Repository/1.0.0": {
@@ -433,7 +439,10 @@
           "DTO": "1.0.0"
         },
         "runtime": {
-          "Repository.dll": {}
+          "Repository.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L5qrBjV91e//m6YiYdgDK+OhbJNWI3SsGxkgM4HUm6a5M7q+xRnXmHGd/FtHQxR+RkgV9KXC7m4P9+Ae7ws/3w==",
+  "dgSpecHash": "BOuAxzX6rJA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\Repository\\Repository.csproj",
+  "projectFilePath": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\armel\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.2\\microsoft.data.sqlite.core.6.0.2.nupkg.sha512",
     "C:\\Users\\armel\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.2\\microsoft.entityframeworkcore.6.0.2.nupkg.sha512",

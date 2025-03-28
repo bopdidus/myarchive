@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qaQLq+7KcG3CUMU4c0W2PDhPvmx8e56wqo66t3Mdc2l0ns4O8oG06NgQhBykLVXlNjdAeMK4X2y8geZqpv1ltw==",
+  "dgSpecHash": "UdehSxcw2n8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\armel\\Documents\\current_project\\MyArchive\\ArchiveModel\\ArchiveModel.csproj",
+  "projectFilePath": "C:\\Users\\armel\\Documents\\doc\\myarchive\\myarchive\\ArchiveModel\\ArchiveModel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\armel\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\armel\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.2\\microsoft.data.sqlite.core.6.0.2.nupkg.sha512",
