@@ -20,7 +20,7 @@ jobs:
 
     env:
       Solution_Name: MyArchive.sln                        # Replace with your solution name, i.e. MyWpfApp.sln.
-      Main_Project_Path: MyArchive.csproj
+      Main_Project_Path: ArchiveUI/ArchiveUI.csproj
 
     steps:
     - name: Checkout
