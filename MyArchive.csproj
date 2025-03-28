@@ -5,6 +5,8 @@
   <PropertyGroup> 
     <GenerateResourceMSBuildArchitecture>CurrentArchitecture</GenerateResourceMSBuildArchitecture>
     <GenerateResourceMSBuildRuntime>CurrentRuntime</GenerateResourceMSBuildRuntime>
+    <PackageReference Include="System.Resources.Extensions" Version="4.6.0" />
+    <GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
 </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
