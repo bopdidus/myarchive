@@ -20,9 +20,7 @@ jobs:
 
     env:
       Solution_Name: MyArchive.sln                        # Replace with your solution name, i.e. MyWpfApp.sln.
-      # Test_Project_Path: your-test-project-path                 # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
-      # Wap_Project_Directory: Packages    # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
-      # Wap_Project_Path: your-wap-project-path                   # Replace with the path to your Wap project, i.e. MyWpf.App.Package\MyWpfApp.Package.wapproj.
+      Main_Project_Path: MyArchive.csproj
 
     steps:
     - name: Checkout
@@ -50,11 +48,11 @@ jobs:
       env:
         Configuration: ${{ matrix.configuration }}
 
-    - name: Build
+    - name: Build Solution
       run: dotnet build $env:Solution_Name --configuration ${{ matrix.configuration }} --no-restore
 
-    - name: Publish
-      run: dotnet publish $env:Solution_Name --configuration ${{ matrix.configuration }} --output $env:Output_Path --no-build
+    - name: Publish Main Project
+      run: dotnet publish $env:Main_Project_Path --configuration ${{ matrix.configuration }} --output ./publish --no-build
 
         
   Deploy:
